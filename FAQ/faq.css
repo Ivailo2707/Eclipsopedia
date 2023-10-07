@@ -9,8 +9,11 @@ h1, p.infocus{
   font-family: "Lucida Console", monospace;
 }
 
-h1 {
+h1.infocus{
+  margin-top: 90pt !important;
+}
 
+h1 {
   font-size: 40pt !important;
 }
 
