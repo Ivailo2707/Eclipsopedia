@@ -4,8 +4,11 @@ html {
 
 body {
     height: 100%;
+    background-image: url("../Assets/background.png");
     background-size: cover;
     background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,8 +25,9 @@ button {
     border-radius: 2rem;
     border: 3px solid #27425d;
     box-shadow: 0 0 2px rgb(255 255 255 / 12%), 0 0 4px rgb(255 255 255 / 12%), 0 0 8px rgb(255 255 255 / 12%), 0 0 16px rgb(255 255 255 / 12%), 0 0 32px rgb(255 255 255 / 12%), 0 0 64px rgb(255 255 255 / 12%);
+    transform: scale(1.4);
 }
 
 button:hover {
-    transform: scale(1.1);
+    transform: scale(1.5);
 }

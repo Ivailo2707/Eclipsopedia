@@ -5,11 +5,11 @@
     top: 50%;
     transform: translate(-50%, -50%);
     padding: 3%;
+    width: 20%;
     font-size: 30px;
-    color: #27425d;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 25px;
-    box-shadow: 0 0 2px rgb(255 255 255 / 12%), 0 0 4px rgb(255 255 255 / 12%), 0 0 8px rgb(255 255 255 / 12%), 0 0 16px rgb(255 255 255 / 12%), 0 0 32px rgb(255 255 255 / 12%), 0 0 64px rgb(255 255 255 / 12%);
+    background-color: rgba(37, 88, 116, 0.756);
 }
 
 button {
@@ -28,10 +28,16 @@ button {
 
 .currentResult {
     font-size: 2rem;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
+    color: azure;
 }
 
 body {
+    background-image: url("../Assets/background.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100%;
     position: relative;
     overflow: hidden;
