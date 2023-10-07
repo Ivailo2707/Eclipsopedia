@@ -1,3 +1,26 @@
 body{
     background-image: url("/Assets/background.png");
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 800px; 
+    height: 400px; 
+    background-color: rgba(255, 255, 255, 0.7); 
+    border: 2px solid #000;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+
+.box p {
+    font-size: 18px;
+    color: #000; 
+}
