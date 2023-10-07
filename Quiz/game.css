@@ -40,3 +40,36 @@ button.wrong {
     background-color: darkred;
     color: white;
 }
+
+body {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background-image: url('bg2.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+html {
+    height: 100%;
+}
+
+table {
+    width: 100%;
+    border-spacing: 60px 30px;
+}
+
+td {
+    width: 50%;
+    margin: 15px;
+}
+
+.questionNumbers {
+    font-size: 1.5rem;
+    padding: 50px;
+    color: black;
+}
+
+#questionNumber {
+    font-size: 2rem;
+}
