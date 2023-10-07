@@ -10,18 +10,22 @@ body, h1, div, button {
     height: 100vh; 
 }
 
-/* Style the "content" div to create a rectangle */
+
 .content {
-    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
-    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 70px;
     text-align: center;
-    margin: 20% auto; /* Center the content vertically */
-    max-width: 400px; /* Set a maximum width for the rectangle */
+    margin-bottom: 20% auto; 
+    margin-left: 20% auto; 
+    margin-right: 20% auto; 
+    max-width: 400px; 
 }
 
-/* Style the title */
+
 h1 {
-    font-size: 2rem;
+    padding: 15px;
+    font-size: 3rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
