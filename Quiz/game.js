@@ -85,9 +85,9 @@ const questions = [
     {
         question: 'Why do only some people on Earth see a solar eclipse at a given time?',
         answers: [
+            { text: 'Only those within the Moon\'s shadow can see it', correct: true },
             { text: 'Solar eclipses are visible everywhere on Earth simultaneously', correct: false },
             { text: 'It depends on whether you have the right equipment to observe it', correct: false },
-            { text: 'Only those within the Moon\'s shadow can see it', correct: true },
             { text: 'Solar eclipses are too faint to be seen from Earth', correct: false }
         ]
     },
@@ -105,8 +105,8 @@ const questions = [
         answers: [
             { text: 'Once every 10 years', correct: false },
             { text: 'Twice a month', correct: false },
-            { text: 'Two to four times a year', correct: true },
-            { text: 'Rarely, about once in a century', correct: false }
+            { text: 'Rarely, about once in a century', correct: false },
+            { text: 'Two to four times a year', correct: true }
         ]
     },
     {
@@ -148,9 +148,9 @@ const questions = [
     {
         question: 'Why does the Moon appear reddish during a lunar eclipse?',
         answers: [
+            { text: 'It\'s caused by Earth\'s atmosphere scattering sunlight', correct: true },
             { text: 'Due to the presence of aliens on the Moon', correct: false },
             { text: 'Because the Moon is made of red cheese', correct: false },
-            { text: 'It\'s caused by Earth\'s atmosphere scattering sunlight', correct: true },
             { text: 'The Moon is reflecting the red light from a nearby star', correct: false }
         ]
     },
@@ -194,8 +194,8 @@ const questions = [
         question: 'What is the alignment of the Sun, Earth, and Moon called when it causes extreme gravitational effects?',
         answers: [
             { text: 'Tidal alignment', correct: false },
-            { text: 'Apogee alignment', correct: false },
             { text: 'Perigee alignment', correct: true },
+            { text: 'Apogee alignment', correct: false },
             { text: 'Solar conjunction', correct: false }
         ]
     },
