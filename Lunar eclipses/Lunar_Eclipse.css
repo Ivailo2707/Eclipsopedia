@@ -36,3 +36,8 @@ p {
     line-height: 1.5;
     margin-bottom: 20px;
 }
+
+.big-title {
+    font-size: 36px;
+    margin-top: 40px;
+}
