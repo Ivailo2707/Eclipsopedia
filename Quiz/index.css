@@ -7,10 +7,12 @@ body {
     background-size: cover;
     background-position: center center;
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center;
+    align-items: center;
     position: relative;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 button {
