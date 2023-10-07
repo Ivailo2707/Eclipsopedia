@@ -1,0 +1,27 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    position: relative;
+    overflow: hidden;
+}
+
+button {
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    color: #27425d;
+    border-radius: 2rem;
+    border: 3px solid #27425d;
+    box-shadow: 0 0 2px rgb(255 255 255 / 12%), 0 0 4px rgb(255 255 255 / 12%), 0 0 8px rgb(255 255 255 / 12%), 0 0 16px rgb(255 255 255 / 12%), 0 0 32px rgb(255 255 255 / 12%), 0 0 64px rgb(255 255 255 / 12%);
+}
+
+button:hover {
+    transform: scale(1.1);
+}
