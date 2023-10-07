@@ -1,2 +1,2 @@
-currentPoints= localStorage.getItem("points");
-document.getElementById("points").innerHTML= currentPoints;
+currentPoints = localStorage.getItem("points");
+document.getElementById("points").innerHTML = currentPoints;
