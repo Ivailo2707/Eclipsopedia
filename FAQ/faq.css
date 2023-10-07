@@ -1,0 +1,15 @@
+body {
+  background: black url('../Assets/background.png') no-repeat fixed center;
+  background-size: cover !important;
+}
+
+h1, p.infocus{
+  text-align: center;
+  color: #14b0ed;
+  font-family: "Lucida Console", monospace;
+}
+
+h1 {
+
+  font-size: 40pt !important;
+}
