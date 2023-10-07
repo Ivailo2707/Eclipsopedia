@@ -21,7 +21,6 @@ header {
 
     max-width: 800px;
     background-color: rgba(255, 255, 255, 0.7);
-    border: 2px solid #000;
     padding: 20px;
     text-align: center;
 }
@@ -38,6 +37,16 @@ p {
 }
 
 .big-title {
-    font-size: 36px;
-    margin-top: 40px;
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #160447, #3966c9);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+}
+
+#icon{
+    height: 60px;
+    width: 60px;
 }
