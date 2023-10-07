@@ -5,7 +5,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: white;
+    background-color: rgb(53, 81, 170);
     border-radius: 25px;
     box-shadow: 0 0 2px rgb(255 255 255 / 12%), 0 0 4px rgb(255 255 255 / 12%), 0 0 8px rgb(255 255 255 / 12%), 0 0 16px rgb(255 255 255 / 12%), 0 0 32px rgb(255 255 255 / 12%), 0 0 64px rgb(255 255 255 / 12%);
 }
@@ -45,7 +45,6 @@ body {
     height: 100%;
     position: relative;
     overflow: hidden;
-    background-image: url('bg2.jpg');
     background-size: cover;
     background-position: center center;
 }
