@@ -3,12 +3,13 @@ body {
   padding: 0;
   background: black url('../Assets/background.png') no-repeat fixed center;
   background-size: cover !important;
+  font-family: Arial, sans-serif;
 }
 
 h1, p.infocus{
   text-align: center;
   color: #14b0ed;
-  font-family: "Lucida Console", monospace;
+  font-family: "Lucida Console", monospace !important;
 }
 
 h1.infocus{
@@ -17,6 +18,27 @@ h1.infocus{
 
 h1 {
   font-size: 40pt !important;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+  background-color: transparent;
 }
 
 .container {
@@ -28,7 +50,7 @@ h1 {
 
 .box {
     width: 800px;
-    height: 400px;
+    height: auto;
     background-color: rgba(255, 255, 255, 0.7);
     padding: 20px;
     text-align: center;
