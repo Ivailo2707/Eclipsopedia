@@ -13,3 +13,25 @@ h1 {
 
   font-size: 40pt !important;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15pt 15pt 15pt 15pt;
+}
+
+.box {
+    width: 800px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+.box p {
+    font-size: 18px;
+    color: #000;
+}
