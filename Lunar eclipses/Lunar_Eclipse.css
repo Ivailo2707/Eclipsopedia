@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    /*height: 100vh;*/
 }
 
 header {
@@ -44,6 +44,7 @@ p {
     background-clip: text;
     -webkit-background-clip: text;
     text-align: center;
+    margin-top: 15% !important;
 }
 
 #icon{
@@ -51,6 +52,6 @@ p {
     width: 60px;
 }
 
-.container {
+/*.container {
     margin-top: 50%;
-}
+}*/
