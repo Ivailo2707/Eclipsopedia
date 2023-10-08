@@ -52,6 +52,9 @@ p {
     width: 60px;
 }
 
-/*.container {
-    margin-top: 50%;
-}*/
+.eclipse_gif{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;  
+}
