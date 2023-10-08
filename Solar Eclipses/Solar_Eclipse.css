@@ -14,7 +14,7 @@ body {
 
 
 .container {
-    margin-top: 30%;
+    margin-top: 55%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,6 +43,7 @@ h1 {
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
+    text-align: center;
 }
 
 #icon{
