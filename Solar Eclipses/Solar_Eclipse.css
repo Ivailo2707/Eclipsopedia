@@ -26,6 +26,7 @@ body {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 20px;
     text-align: center;
+    border-radius: 15pt;
 }
 
 p {
